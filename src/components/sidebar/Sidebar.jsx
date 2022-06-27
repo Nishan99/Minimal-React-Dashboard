@@ -1,13 +1,11 @@
 import React from 'react'
 import './Sidebar.css'
-import { AiFillHome ,AiOutlineHome} from "react-icons/ai";
-import { SiGoogleanalytics } from "react-icons/si";
-import { BsFillHandThumbsUpFill, BsHandThumbsUp} from "react-icons/bs";
+import {  AiOutlineHome} from "react-icons/ai";
+import {  BsHandThumbsUp} from "react-icons/bs";
 import { TbUsers,TbReportAnalytics } from "react-icons/tb";
 import { GoPackage } from "react-icons/go";
 import { MdOutlineAttachMoney,MdOutlineFeedback } from "react-icons/md";
 import { FiMail } from "react-icons/fi";
-import { IoAnalyticsOutline } from "react-icons/io";
 import { TbBrandGoogleAnalytics } from "react-icons/tb";
 
 import { BiMessageRoundedDots } from "react-icons/bi";
