@@ -1,0 +1,62 @@
+.topbar{
+    position: sticky;
+    top: 0;
+    background:#fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    z-index: 1000;
+}
+.topbarWrapper{
+    height:50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0px 40px;
+    /* border:1px solid #000; */
+}
+
+ 
+.topleft .logo{
+    font-size:20px;
+    font-weight: bold;
+    color:darkblue;
+    cursor: pointer;
+}
+.top-icons{
+    position:relative;
+    cursor:pointer; 
+    
+}
+.notification-icon{
+    font-size:30px;
+}
+
+.notification-no{
+    position:absolute;
+    font-weight: bold;
+    font-size: 14px;
+    color:#fff;
+    top: -2px;
+    right: -10px;
+    background-color: crimson;
+    padding: 2px 7px;
+    border-radius: 50%;   
+    
+}
+.topright{
+    /* border: 1px solid red; */
+    
+    display: flex;
+    
+    color:#555 !important;
+    align-items: center;
+    justify-content: space-between;
+    width:180px;
+}
+
+.topright img{
+    height:40px;
+    width:40px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor:pointer;
+}

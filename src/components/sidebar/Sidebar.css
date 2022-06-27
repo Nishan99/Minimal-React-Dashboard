@@ -1,0 +1,40 @@
+.sidebar{
+    flex:1;
+    height:calc(100vh - 50px);
+    background-color: rgb(255, 255, 255);
+    top:50px;
+
+}
+
+.sidebar-wrapper{
+    color:#555;
+    padding:20px 30px;
+}
+.sidebar-menu{
+    margin-bottom: 50px;
+}
+.sidebar-menu h3{
+    font-size:16px;
+    color:lightgray;
+}
+.sidebar-menu ul{
+    list-style:none;
+}
+.sidebar-menu ul li{
+    padding:5px 0px;
+    font-size:18px;
+    display: flex;
+    align-items: center;
+    margin:5px 0px;
+    cursor:pointer;
+    border-radius: 8px;
+    padding:5px 8px;
+    transition:all ease .3s;
+}
+.listitem-icon{
+    margin-right:5px;
+    font-size:22px;
+}
+.sidebar-menu ul li.active, .sidebar-menu ul li:hover{
+    background-color:rgb(240,240,255);
+}

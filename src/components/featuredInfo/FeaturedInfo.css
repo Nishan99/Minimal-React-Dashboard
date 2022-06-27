@@ -1,0 +1,48 @@
+.featured {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.featured-item {
+    cursor: pointer;
+  flex: 1;
+  padding: 20px 30px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 10px 20px;
+  border-radius: 08px;
+}
+
+.featured-title {
+  font-size: 20px;
+}
+.featured-subitem-container {
+  display: flex;
+  align-items: center;
+  margin: 10px 0px;
+}
+
+.featured-money {
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+.featured-card-icon {
+    font-size: 16px;
+    margin:4px 5px 0px;
+    
+}
+.featured-card-icon.positive {
+    color:green;
+}
+.featured-card-icon.negative {
+    color:red;
+}
+
+
+.featured-sub{
+    font-size:16px;
+    font-weight: 600;
+    color:grey;
+}
